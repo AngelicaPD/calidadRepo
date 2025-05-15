@@ -44,7 +44,7 @@ jobs:
       - name: Configure calidadRepo properties
         run: |
           echo "sonar.projectKey=AngelicaPD_calidadRepo" > sonar-project.properties
-          echo "sonar.organization=AngelicaPD" >> sonar-project.properties
+          echo "sonar.organization=angelicapd" >> sonar-project.properties
           echo "sonar.java.binaries=target/classes" >> sonar-project.properties
           echo "sonar.java.libraries=target/dependency/*.jar" >> sonar-project.properties
           echo "sonar.sources=." >> sonar-project.properties
